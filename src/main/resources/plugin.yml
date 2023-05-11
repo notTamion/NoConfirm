@@ -1,4 +1,4 @@
 name: NoConfirm
 version: '${project.version}'
-main: de.noconfirm.NoConfirm
+main: de.tamion.NoConfirm
 api-version: 1.19
