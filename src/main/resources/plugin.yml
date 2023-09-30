@@ -1,0 +1,4 @@
+name: NoConfirm
+version: '${project.version}'
+main: de.noconfirm.NoConfirm
+api-version: 1.19
