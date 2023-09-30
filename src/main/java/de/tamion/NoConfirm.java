@@ -11,9 +11,8 @@ public final class NoConfirm extends JavaPlugin {
     public void onEnable() {
         PluginManager pluginManager = Bukkit.getPluginManager();
         pluginManager.registerEvents(new ReloadListener(), this);
+
+        Metrics metrics = new Metrics(this, 19010);
     }
 
-    @Override
-    public void onDisable() {
-    }
 }
